@@ -1,0 +1,3 @@
+
+export const FETCH_COMMENT="FETCH_COMMENT"
+export const SET_COMMENT_DATA="SET_COMMENT_DATA"
