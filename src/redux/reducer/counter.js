@@ -8,8 +8,6 @@ export default function setCommentDataReducer(state = initialState, action) {
   switch (action.type) {
     case SET_COMMENT_DATA:
       let commentData = action?.data;
-
-      console.log(commentData, "commentData");
       return {
         ...state,
         commentData: commentData,
